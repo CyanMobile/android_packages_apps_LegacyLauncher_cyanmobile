@@ -23,6 +23,7 @@
     <string name="done">Done</string>
     <!-- Application name -->
     <string name="application_name">Legacy Launcher</string>
+    <string name="uid_name">Android Core Apps</string>
 
     <!-- Default folder name -->
     <string name="folder_name">資料夾</string>
