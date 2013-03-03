@@ -122,6 +122,15 @@
             android:label="@string/activity_label_reorder_activity"
             android:noHistory="true" />
 
+        <activity android:name=".RocketLauncher"
+            android:label="@string/application_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- Enable system-default search mode for any activity in Home -->
         <meta-data
             android:name="android.app.default_searchable"
